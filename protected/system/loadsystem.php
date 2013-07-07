@@ -9,7 +9,7 @@ foreach($systemload as $system)
 	if(file_exists($config))
 	{
 		require_once $config;
-		new $system($$system);
+		$$system = new $system($$system);
 	}
-	else new $system();
+	else $$system = new $system();
 }
