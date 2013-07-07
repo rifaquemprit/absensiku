@@ -4,6 +4,7 @@ define("APPPATH",__DIR__);
 define("EXT",".php");
 define("PROTECTED_DIR",'protected');
 define("SYSTEM", PROTECTED_DIR . DIRECTORY_SEPARATOR . 'system' . DIRECTORY_SEPARATOR);
+define("CONFIG", PROTECTED_DIR . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR);
 
 
 
